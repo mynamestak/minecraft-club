@@ -1,0 +1,11 @@
+header {
+	height: 64px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: fixed;
+	z-index: layers(header);
+	.logo {
+		width: 120px;
+	}
+}

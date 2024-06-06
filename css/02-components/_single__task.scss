@@ -1,0 +1,65 @@
+.task__single {
+	background-color: white;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	overflow: hidden;
+
+	&--header {
+		padding: $spacer $spacer * 2;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		p {
+			font-size: 2rem;
+			line-height: 100%;
+			color: white;
+		}
+
+		.name {
+			font-weight: 700;
+		}
+	}
+
+	&--body {
+		padding: $spacer * 2;
+		display: grid;
+		gap: $spacer * 2;
+
+		.content__single {
+			display: grid;
+			gap: $spacer;
+
+			.title {
+				padding-bottom: $spacer / 2;
+				font-weight: 700;
+				font-size: 2rem;
+				line-height: 100%;
+			}
+			.content {
+				font-size: 1.4rem;
+				line-height: 150%;
+			}
+		}
+	}
+}
+
+.task__wrapper--a {
+	.task__single--header {
+		background-color: $red;
+	}
+	.title {
+		color: $red;
+		border-bottom: 1px solid $red;
+	}
+}
+
+.task__wrapper--b {
+	.task__single--header {
+		background-color: $blue;
+	}
+	.title {
+		color: $blue;
+		border-bottom: 1px solid $blue;
+	}
+}

@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	padding-top: $spacer * 8;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+li,
+a {
+	font-family: ff(base);
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+	color: $text;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	vertical-align: bottom;
+	pointer-events: none;
+}
+
+.sp__only {
+	@include lg {
+		display: none;
+	}
+}
+.pc__only {
+	display: none;
+	@include lg {
+		display: unset;
+	}
+}

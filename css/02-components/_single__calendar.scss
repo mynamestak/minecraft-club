@@ -1,0 +1,40 @@
+.calendar__single {
+	position: relative;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: $spacer * 2;
+
+	&--month {
+		position: sticky;
+		top: $spacer * 7;
+		left: 0;
+		font-size: 2rem;
+		height: max-content;
+
+		.strong {
+			font-size: 2.8rem;
+		}
+	}
+	.jun {
+		color: $blue;
+	}
+
+	.jul {
+		color: $primary;
+	}
+	.aug {
+		color: $red;
+	}
+	&--date {
+		display: grid;
+		gap: $spacer;
+		padding-top: $spacer * 1.5;
+
+		p {
+			font-size: 1.6rem;
+			line-height: 150%;
+			padding-bottom: $spacer;
+			border-bottom: 1px solid $lightgray;
+		}
+	}
+}

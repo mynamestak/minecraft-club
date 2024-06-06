@@ -1,0 +1,51 @@
+.schedule__single {
+	display: grid;
+	gap: $spacer * 2;
+	grid-template-columns: max-content 1fr;
+	position: relative;
+
+	&--title {
+		grid-area: 1 / 1 / 2 / 3;
+		font-size: 2.4rem;
+		line-height: 125%;
+		font-weight: 700;
+		background-color: $lightgray;
+		width: 100%;
+		padding: $spacer * 2 $spacer;
+	}
+	&--month {
+		grid-area: 2 / 1 / 3 / 2;
+		position: sticky;
+		top: $spacer * 7;
+		left: 0;
+		font-size: 2rem;
+		height: max-content;
+
+		.strong {
+			font-size: 2.8rem;
+		}
+	}
+	.jun {
+		color: $blue;
+	}
+
+	.jul {
+		color: $primary;
+	}
+	.aug {
+		color: $red;
+	}
+
+	&--date {
+		grid-area: 2 / 2 / 3 / 3;
+		gap: $spacer * 2;
+		display: grid;
+
+		p {
+			font-size: 1.6rem;
+			line-height: 150%;
+			padding-bottom: $spacer;
+			border-bottom: 1px solid $lightgray;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.mtg__wrapper {
+	.mtg__cnt {
+		display: grid;
+		gap: $spacer * 3;
+		grid-template-columns: repeat(2, 1fr);
+
+		@include lg {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}

@@ -1,0 +1,7 @@
+@function ff($fontFamilyKind) {
+  @return map-get($fontfamily, $fontFamilyKind);
+}
+
+@function layers($z-layer) {
+  @return map-get($z-layers, $z-layer);
+}

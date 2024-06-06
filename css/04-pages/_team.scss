@@ -1,0 +1,31 @@
+.team {
+	display: grid;
+	gap: $spacer * 6;
+
+	@include lg {
+		gap: $spacer * 9;
+	}
+
+	.mtg__wrapper,
+	.task__wrapper {
+		padding: 0 $spacer * 2;
+		display: grid;
+		gap: $spacer * 2;
+
+		@include lg {
+			padding: 0 calc(calc(100vw - 1000px) / 2);
+		}
+
+		&--title {
+			font-size: 3.2rem;
+			line-height: 100%;
+			font-weight: 700;
+			border-bottom: 8px solid $primary;
+			padding-bottom: $spacer;
+
+			@include lg {
+				font-size: 4rem;
+			}
+		}
+	}
+}

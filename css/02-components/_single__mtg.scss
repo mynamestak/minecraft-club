@@ -1,0 +1,12 @@
+.mtg__single {
+	display: grid;
+	gap: $spacer;
+
+	&--name {
+		font-size: 2rem;
+	}
+
+	a {
+		display: block;
+	}
+}

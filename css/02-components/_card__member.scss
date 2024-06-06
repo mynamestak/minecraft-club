@@ -1,0 +1,43 @@
+.team__card {
+	padding: $spacer * 3 $spacer * 2;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+
+	&--title {
+		text-align: center;
+		font-size: 2rem;
+		color: white;
+	}
+	&--member {
+		display: grid;
+		gap: $spacer;
+
+		.member__single {
+			font-size: 1.6rem;
+			line-height: 150%;
+			color: white;
+		}
+	}
+	&--btn {
+		background-color: white;
+		text-align: center;
+		padding: $spacer 0;
+		font-size: 1.6rem;
+		margin-top: $spacer * 2;
+		border-radius: 8px;
+		font-weight: 700;
+	}
+}
+
+.team__card--blue {
+	background-color: $blue;
+	.team__card--btn {
+		color: $blue;
+	}
+}
+.team__card--red {
+	background-color: $red;
+	.team__card--btn {
+		color: $red;
+	}
+}

@@ -1,0 +1,28 @@
+.primary__btn {
+	color: white;
+	background-color: $primary;
+	font-size: 1.6rem;
+	border-radius: 8px;
+	padding: $spacer $spacer * 2;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: 700;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+	position: relative;
+}
+.primary__btn::after {
+	position: absolute;
+	top: 50%;
+	right: $spacer;
+	content: ">";
+	font-weight: 700;
+	font-size: 1.6rem;
+	transform: translateY(-50%);
+}
+.primary__btn--border {
+	color: $primary;
+	background-color: white;
+	border: 1px solid $primary;
+}
