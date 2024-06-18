@@ -1,12 +1,18 @@
 .mtg__single {
 	display: grid;
 	gap: $spacer;
+	grid-template-rows: max-content 1fr;
 
 	&--name {
 		font-size: 2rem;
 	}
 
 	a {
-		display: block;
+		display: inline-flex;
+		color: $text;
+		font-size: 2.4rem;
+		justify-content: center;
+		align-items: center;
+		background-color: $lightgray;
 	}
 }
