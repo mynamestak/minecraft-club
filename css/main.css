@@ -305,12 +305,18 @@ header .logo {
 .mtg__single {
   display: grid;
   gap: 0.8rem;
+  grid-template-rows: max-content 1fr;
 }
 .mtg__single--name {
   font-size: 2rem;
 }
 .mtg__single a {
-  display: block;
+  display: inline-flex;
+  color: #08061a;
+  font-size: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
 }
 
 .task__single {
