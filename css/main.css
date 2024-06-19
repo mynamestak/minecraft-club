@@ -302,13 +302,23 @@ header .logo {
   line-height: 150%;
 }
 
+.note__red {
+  color: #eb5757;
+  font-weight: 700;
+}
+
+.note__spacer {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
 .mtg__single {
   display: grid;
   gap: 0.8rem;
   grid-template-rows: max-content 1fr;
 }
 .mtg__single--name {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .mtg__single a {
   display: inline-flex;
@@ -485,4 +495,8 @@ header .logo {
   .team .task__wrapper--title {
     font-size: 4rem;
   }
+}
+
+.online__instruction {
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */
