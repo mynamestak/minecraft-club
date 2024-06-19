@@ -11,6 +11,8 @@
 	&--member {
 		display: grid;
 		gap: $spacer;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: $spacer * 2;
 
 		.member__single {
 			font-size: 1.6rem;
