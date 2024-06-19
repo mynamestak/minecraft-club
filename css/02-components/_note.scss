@@ -1,6 +1,14 @@
 .note {
 	font-size: 1.6rem;
-
 	line-height: 150%;
+}
 
+.note__red {
+	color: $red;
+	font-weight: 700;
+}
+
+.note__spacer {
+	margin-top: $spacer * 2;
+	margin-bottom: $spacer * 2;
 }
