@@ -1,7 +1,7 @@
 .task__wrapper {
 	.task__cnt {
 		display: grid;
-		gap: $spacer * 2;
+		gap: $spacer * 4;
 
 		@include lg {
 			grid-template-columns: repeat(3, 1fr);

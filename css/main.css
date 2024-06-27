@@ -454,7 +454,7 @@ header .logo {
 
 .task__wrapper .task__cnt {
   display: grid;
-  gap: 1.6rem;
+  gap: 3.2rem;
 }
 @media (min-width: 1024px) {
   .task__wrapper .task__cnt {
