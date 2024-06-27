@@ -392,6 +392,10 @@ header .logo {
   border-bottom: 1px solid #2f80ed;
 }
 
+footer {
+  height: 2.4rem;
+}
+
 .schedule__btns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
