@@ -413,6 +413,9 @@ footer {
 .schedule__btns .primary__btn:nth-child(4) {
   grid-area: 3/1/4/3;
 }
+.schedule__btns .primary__btn:nth-child(5) {
+  grid-area: 4/1/5/3;
+}
 
 .calendar__cnt {
   display: grid;
@@ -465,6 +468,11 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 2.4rem;
   }
+}
+
+.link__cnt {
+  display: grid;
+  gap: 2.4rem;
 }
 
 .team {
