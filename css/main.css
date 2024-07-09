@@ -511,6 +511,15 @@ footer {
   }
 }
 
-.online__instruction {
+.online__header {
+  display: grid;
+  gap: 1.6rem;
+}
+@media (min-width: 1024px) {
+  .online__header {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.online__header .online__instruction {
   display: inline-block;
 }/*# sourceMappingURL=main.css.map */

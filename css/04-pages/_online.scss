@@ -1,3 +1,12 @@
-.online__instruction {
-	display: inline-block;
+.online__header {
+	display: grid;
+	gap: $spacer * 2;
+
+	@include lg {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.online__instruction {
+		display: inline-block;
+	}
 }
