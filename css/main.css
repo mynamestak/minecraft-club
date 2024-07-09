@@ -484,6 +484,7 @@ footer {
     gap: 7.2rem;
   }
 }
+.team .plan__wrapper,
 .team .mtg__wrapper,
 .team .task__wrapper {
   padding: 0 1.6rem;
@@ -491,11 +492,13 @@ footer {
   gap: 1.6rem;
 }
 @media (min-width: 1024px) {
+  .team .plan__wrapper,
   .team .mtg__wrapper,
   .team .task__wrapper {
     padding: 0 calc((100vw - 1000px) / 2);
   }
 }
+.team .plan__wrapper--title,
 .team .mtg__wrapper--title,
 .team .task__wrapper--title {
   font-size: 3.2rem;
@@ -505,6 +508,7 @@ footer {
   padding-bottom: 0.8rem;
 }
 @media (min-width: 1024px) {
+  .team .plan__wrapper--title,
   .team .mtg__wrapper--title,
   .team .task__wrapper--title {
     font-size: 4rem;
